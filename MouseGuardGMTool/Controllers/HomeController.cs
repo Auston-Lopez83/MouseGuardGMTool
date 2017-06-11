@@ -13,17 +13,36 @@ namespace MouseGuardGMTool.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult TheGuard()
         {
             ViewData["Message"] = "Your application description page.";
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult TheTerritories()
         {
             ViewData["Message"] = "Your contact page.";
 
+            return View();
+        }
+
+		public IActionResult TheMissions()
+		{
+			ViewData["Message"] = "Your contact page.";
+
+			return View();
+		}
+
+		public IActionResult Recruitment()
+		{
+			ViewData["Message"] = "Your contact page.";
+
+			return View();
+		}
+
+        public IActionResult TheDenizens()
+        {
             return View();
         }
 
