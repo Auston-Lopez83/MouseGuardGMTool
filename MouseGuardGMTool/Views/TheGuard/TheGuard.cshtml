@@ -1,4 +1,13 @@
-﻿@{
+﻿@model IEnumerable<TheGuard>
+@foreach (var p in Model) {
+    <div>
+        <h3>@p.Name</h3>
+        @p.Will
+        <h4>@p.Health</h4>
+</div> }
+
+
+<!--@{
     ViewData["Title"] = "Home Page";
 }
 <h2>@ViewData["Message"]</h2>
@@ -148,3 +157,4 @@
 
 
 
+-->

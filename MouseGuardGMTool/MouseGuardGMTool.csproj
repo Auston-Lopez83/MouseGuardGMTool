@@ -21,6 +21,10 @@
     <Folder Include="wwwroot\images\" />
     <Folder Include="Models\" />
     <Folder Include="Repository\" />
-    <Folder Include="Views\Recruitment\" />
+    <Folder Include="Views\TheGuard\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\Skills.cs" />
+    <Compile Remove="Models\Traits.cs" />
   </ItemGroup>
 </Project>
