@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using MouseGuardGMTool.Models;
 namespace MouseGuardGMTool.Models
 {
-    public interface ITheGuardRepository
+    public interface IPlayerRepository
     {
         IEnumerable<TheGuard> TheGuards { get; }
     }

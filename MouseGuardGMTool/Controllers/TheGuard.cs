@@ -5,8 +5,8 @@ namespace MouseGuardGMTool.Controllers
 {
     public class TheGuard : Controller
     {
-        private ITheGuardRepository repository;
-        public TheGuard(ITheGuardRepository repo)
+        private IPlayerRepository repository;
+        public TheGuard(IPlayerRepository repo)
         {
             repository = repo;
         }
