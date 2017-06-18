@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using MouseGuardGMTool.Models;
-namespace MouseGuardGMTool.Models
+namespace MouseGuardGMTool
 {
     public interface ITheGuardRepository
     {
-        IEnumerable<TheGuard> TheGuards { get; }
+        IEnumerable<Recruitment> Recruitments { get; }
     }
 }
 
