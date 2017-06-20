@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using MouseGuardGMTool.Models;
+using MouseGuardGMTool.Controllers;
 namespace MouseGuardGMTool.Models
 {
-    public interface IPlayerRepository
+    public interface IMissionRepository
     {
-        IEnumerable<TheGuard> TheGuards { get; }
+        IEnumerable<TheMission> TheMissions { get; }
     }
 }
 

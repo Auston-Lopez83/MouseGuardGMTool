@@ -1,14 +1,15 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
+using MouseGuardGMTool.Models;
 namespace MouseGuardGMTool.Controllers
 {
-    public class RecruitmentController : Controller
+    public class TheGuard : Controller
     {
         private IPlayerRepository repository;
-        public RecruitmentController(IPlayerRepository repo)
+        public TheGuard(IPlayerRepository repo)
         {
             repository = repo;
         }
-        public ViewResult List() => View(repository.Recruitments);
+        public ViewResult List() => View(repository.TheGuards);
     }
 }

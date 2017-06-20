@@ -20,12 +20,14 @@ namespace MouseGuardGMTool.Controllers
             return View(); 
         }
 
-        //public IActionResult TheGuard()
-        //{
-        //    ViewData["Message"] = "The Guard";
-
-        //    return View();
-        //}
+        public IActionResult SignUp()
+        {
+            return View();
+        }
+        public IActionResult LogIn()
+        {
+            return View();
+        }
 
         public IActionResult TheTerritories()
         {
